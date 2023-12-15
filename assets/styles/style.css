@@ -1,0 +1,66 @@
+@import 'fonts.css';
+
+body {
+    font-family: "Yekan";
+
+
+}
+
+.navbar-brand > img {
+    width: 90px;
+    height: 90px;
+}
+
+.cover {
+    background: url(../images/banner-services.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center center;
+    /*    height: 70vh;*/
+    
+    opacity: .81;
+    margin: 0 !important;
+}
+.custom-ptb {
+    padding: 2.5em 5em ;
+}
+
+.custom-p {
+    padding: 2em;
+}
+.bd-left {  
+    border-left: 0.5px solid #9f9b9b;
+}
+
+h1,
+h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+p {
+    color: #fff;
+}
+
+.input-group-text {
+    background-color: #e84e0f;
+    -moz-background-color: #e84e0f;
+    -o-background-color: #e84e0f;
+}
+
+.form-control {
+    padding: 0.5em;
+}
+
+h3,
+h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.btn-btn {
+    background-color: #e84e0f;
+    margin-top: 1em;
+    border-radius: 8px;
+    padding: 1em;
+}
