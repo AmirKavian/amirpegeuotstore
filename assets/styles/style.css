@@ -5,23 +5,42 @@ body {
 
 
 }
+.container-fluid {
+    background: #2a363b;
+    padding: 0 ;
+}
 
 .navbar-brand > img {
     width: 90px;
     height: 90px;
 }
-
-.cover {
+.img-container {
+    position: relative;
+    height: 500px;
+}
+.decor-body {
+    width: 100%;
+    position: relative;
+    pointer-events: none;
+    overflow: hidden;
+    height: 31px;
+}
+.img-container > .cover-img {
     background: url(../images/banner-services.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center center;
-    /*    height: 70vh;*/
-    
-    opacity: .81;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .35;
     margin: 0 !important;
 }
 .custom-ptb {
     padding: 2.5em 5em ;
+    position: relative;
+    z-index: 10;
 }
 
 .custom-p {
